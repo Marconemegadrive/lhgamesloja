@@ -1,3 +1,7 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -11,4 +15,18 @@ main{
     border-radius: 10px;
     border: 2px solid black;
     padding: 10px 20px;
+}
+
+span {
+  padding: 5px 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  height: 50px;
+  width: 50px;
 }
